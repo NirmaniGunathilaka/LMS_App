@@ -1,0 +1,35 @@
+.Lapp{
+    margin:20px;
+    padding:20px;
+    justify-content:center;
+    box-shadow: 0 6px 20px 0 rgba(0,0,0,0.19) ;
+  }
+  .icon{
+    display:flex;
+    flex-direction:coloumn;
+    align-items:center;
+  }
+  .Ltext{
+    color:#02706B;
+    font-weight:Bold;
+    font-size:40px;
+    text-align: center;
+  }
+  
+  
+  .icon_class>.MuiSvgIcon.root{
+    color:#02706B ;
+    align-items: center;
+  
+  }
+#divleft{
+  width: 45%;
+  float: left;
+  margin:10px;
+}
+
+#divright{
+  width: 45%;
+  float: left;
+  margin:10px;
+}
