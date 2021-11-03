@@ -1,0 +1,214 @@
+.background {
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.menu-bar {
+  background: rgb(150, 61, 142);
+  text-align: center;
+}
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+.menu-bar ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu-bar ul li a {
+  text-decoration: none;
+  color: rgb(250, 234, 234);
+}
+.active,
+.menu-bar ul li:hover {
+  background: #d16f1f;
+  border-radius: 3px;
+  font-weight: 900;
+}
+.sub-menu-1 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: #519989;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: 150px;
+  padding: 10;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: #ee9c7b;
+}
+.fa-angle-right {
+  float: right;
+}
+.sub-menu-quizes {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-quizes {
+  display: block;
+  position: absolute;
+  background: #519989;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-quizes ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-quizes ul li {
+  width: 150px;
+  padding: 10;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-quizes ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-quizes ul li a:hover {
+  color: #ee9c7b;
+}
+.sub-menu-about {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-about {
+  display: block;
+  position: absolute;
+  background: #519989;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-about ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-about ul li {
+  width: 150px;
+  padding: 10;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-about ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-about ul li a:hover {
+  color: #ee9c7b;
+}
+.sub-menu-contact {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-contact {
+  display: block;
+  position: absolute;
+  background: #519989;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-contact ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-contact ul li {
+  width: 150px;
+  padding: 10;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-contact ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-contact ul li a:hover {
+  color: #ee9c7b;
+}
+.sub-menu-notes {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-notes {
+  display: block;
+  position: absolute;
+  background: #519989;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-notes ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-notes ul li {
+  width: 150px;
+  padding: 10;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-notes ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-notes ul li a:hover {
+  color: #ee9c7b;
+}
+.sub-menu-profile {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-profile {
+  display: block;
+  position: absolute;
+  background: #519989;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-profile ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-profile ul li {
+  width: 150px;
+  padding: 10;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-profile ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-profile ul li a:hover {
+  color: #ee9c7b;
+}
+
+.desc {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(8, 8, 12);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}

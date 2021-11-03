@@ -1,0 +1,14 @@
+.and {
+  text-align: left;
+  background-color: darksalmon;
+  height: 720px;
+}
+
+.TApp {
+  background-color: rgb(156, 173, 173);
+  height: 700px;
+}
+.and ul li {
+  font-size: 25px;
+  margin: 15px;
+}

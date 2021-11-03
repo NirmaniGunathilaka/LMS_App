@@ -1,0 +1,21 @@
+.App {
+  text-align: left;
+  justify-content: left;
+  justify-content: space-evenly;
+  background-color: green;
+  height: 720px;
+}
+.App h1 {
+  border: 10px;
+  height: 50px;
+  max-width: 600px;
+  margin: auto;
+  background-color: green;
+  font-size: 40px;
+}
+.vision h2 {
+  text-align: left;
+}
+.vision p {
+  font-size: x-large;
+}
