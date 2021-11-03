@@ -1,0 +1,70 @@
+
+.Rh1 {
+  font-size: 38px;
+}
+
+.Rinput[type="text"] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Rinput[type="password"] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Rinput[type="submit"] {
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  /* cursor: pointer; */
+  border-radius: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 22px;
+}
+.Rlabel{
+  width: 240px;
+  display: inline-block;
+  text-align: right;
+}
+
+.Rselect {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-color: rgb(30, 144, 255);
+  border-radius: 10px;
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Rcontainer {
+  background-color: antiquewhite;
+  border-style: hidden;
+  border-radius: 15px;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 8px 6px -6px black;
+}
+@media screen and (max-width: 900px) {
+  .main-contianer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}

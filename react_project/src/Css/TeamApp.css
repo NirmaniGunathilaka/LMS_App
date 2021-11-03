@@ -1,0 +1,16 @@
+
+.and ul li{
+  font-size: 25px;
+  margin: 15px;
+}
+#divleft{
+  width: 45%;
+  float: left;
+  margin:10px;
+}
+
+#divright{
+  width: 45%;
+  float: left;
+  margin:10px;
+}
