@@ -1,0 +1,49 @@
+.navbar{
+    background-color: black;
+    border-radius: 14px;
+  }
+  .navbar ul{
+    overflow:auto;
+  }
+  .navbar li{
+    
+    list-style: none;
+    margin: 13px 20px;
+    display:inline-block;
+  }
+  .navbar li a{
+    padding: 35px 20px;
+    text-decoration: none;
+    color: white;
+    display:block;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .navbar a:hover{
+    background: center;
+  }
+  
+  .login img{
+    padding: 13px 13px;
+    height: 400px;
+    width: 1500px;
+    margin:auto;
+    float: center;
+  }
+  .head h1{
+    border: 10px;
+    height: 50px;
+    max-width: 600px;
+    margin: auto;
+    background-color:white;
+    font-size: 40px;
+  }
+  .head{
+    height: 800px;
+    background-color:white;
+  }
+  .login h1{
+    float: inline-end;
+    text-align-last: center;
+  }
